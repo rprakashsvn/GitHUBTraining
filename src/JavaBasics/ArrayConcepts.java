@@ -39,10 +39,12 @@ public class ArrayConcepts {
 		userDetails[4] = "Ambattur";
 
 		System.out.println("Normal For Loop :");
-		for (int i = 0; i <= userDetails.length; i++) {
+		for (int i = 0; i < userDetails.length; i++) {
 			System.out.println(userDetails[i] + " - " + (i + 1));
 		}
 		System.out.println();
+
+		System.out.println("hashCode : " + userDetails.hashCode());
 	}
 
 	public static void main(String[] args) {
